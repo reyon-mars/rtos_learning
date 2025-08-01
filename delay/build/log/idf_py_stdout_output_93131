@@ -1,0 +1,167 @@
+e binary image header(2048k). Using the size in the binary imESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4004883b
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1750
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2e04
+entry 0x403c9908
+[0;32mI (26) boot: ESP-IDF v5.1.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug  1 2025 12:46:02[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0a170h ( 41328) map[0m
+[0;32mI (106) esp_image: segment 1: paddr=0001a198 vaddr=3fc91500 size=0287ch ( 10364) load[0m
+[0;32mI (110) esp_image: segment 2: paddr=0001ca1c vaddr=40374000 size=035fch ( 13820) load[0m
+[0;32mI (119) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18684h ( 99972) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=000386ac vaddr=403775fc size=09e34h ( 40500) load[0m
+[0;32mI (157) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (158) boot: Disabling RNG early entropy source...[0m
+[0;32mI (169) cpu_start: Multicore app[0m
+[0;32mI (169) cpu_start: Pro cpu up.[0m
+[0;32mI (169) cpu_start: Starting app cpu, entry point is 0x40375270[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (187) cpu_start: Pro cpu start user code[0m
+[0;32mI (187) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (190) cpu_start: Project name:     delay[0m
+[0;32mI (195) cpu_start: App version:      1[0m
+[0;32mI (200) cpu_start: Compile time:     Aug  1 2025 12:45:56[0m
+[0;32mI (206) cpu_start: ELF file SHA256:  6ce7eaf6be865051...[0m
+[0;32mI (212) cpu_start: ESP-IDF:          v5.1.2[0m
+[0;32mI (217) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (221) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (226) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (231) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (238) heap_init: At 3FC945D8 len 00055138 (340 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (251) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (264) spi_flash: detected chip: boya[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (285) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (292) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (299) app_start: Starting scheduler on CPU0[0m
+[0;32mI (304) app_start: Starting scheduler on CPU1[0m
+[0;32mI (304) main_task: Started on CPU0[0m
+[0;32mI (314) main_task: Calling app_main()[0m
+[0;32mI (314) gpio: GPIO[10]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (324) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (334) main_task: Returned from app_main()[0m
+[0;32mI (344) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (334) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (864) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (1354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (1374) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (1854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (1884) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (2354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (2394) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (2854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (2904) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (3354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (3414) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (3854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (3924) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (4354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (4434) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (4854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (4944) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (5354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (5454) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (5854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (5964) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (6354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (6474) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (6854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (6984) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (7354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (7494) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (7854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (8004) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (8354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (8514) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (8854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (9024) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (9354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (9534) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (9854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (10044) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (10354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (10554) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (10854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (11064) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (11354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (11574) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (11854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (12084) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (12354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (12594) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (12854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (13104) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (13354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (13614) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (13854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (14124) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (14354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (14634) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (14854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (15144) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (15354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (15654) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (15854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (16164) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (16354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (16674) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (16854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (17184) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (17354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (17694) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (17854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (18204) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (18354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (18714) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (18854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (19224) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (19354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (19734) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (19854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (20244) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (20354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (20754) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (20854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (21264) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (21354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (21774) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (21854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (22284) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (22354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (22794) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (22854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (23304) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (23354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (23814) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (23854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (24324) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (24354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (24834) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (24854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m
+[0;32mI (25344) BLINK_TEST: vTaskDelay() LED OFF[0m
+[0;32mI (25354) BLINK_TEST: vTaskDelayUntil() LED ON[0m
+[0;32mI (25854) BLINK_TEST: vTaskDelay() LED ON[0m
+[0;32mI (25854) BLINK_TEST: vTaskDelayUntil() LED OFF[0m

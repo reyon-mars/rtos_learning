@@ -1,0 +1,129 @@
+[1/13] Linking C static library esp-idf/usb/libusb.a
+[2/13] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[3/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/multi_led_blink.c.obj
+FAILED: [code=1] esp-idf/main/CMakeFiles/__idf_main.dir/multi_led_blink.c.obj 
+/Users/reyon/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1.2\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DUNITY_INCLUDE_CONFIG_H -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/build/config -I/Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/main -I/Users/reyon/esp/esp-idf/components/newlib/platform_include -I/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/reyon/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/Users/reyon/esp/esp-idf/components/freertos/esp_additions/include -I/Users/reyon/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include -I/Users/reyon/esp/esp-idf/components/esp_hw_support/include -I/Users/reyon/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/reyon/esp/esp-idf/components/esp_hw_support/include/soc/esp32s3 -I/Users/reyon/esp/esp-idf/components/esp_hw_support/port/esp32s3/. -I/Users/reyon/esp/esp-idf/components/esp_hw_support/port/esp32s3/private_include -I/Users/reyon/esp/esp-idf/components/heap/include -I/Users/reyon/esp/esp-idf/components/log/include -I/Users/reyon/esp/esp-idf/components/soc/include -I/Users/reyon/esp/esp-idf/components/soc/esp32s3 -I/Users/reyon/esp/esp-idf/components/soc/esp32s3/include -I/Users/reyon/esp/esp-idf/components/hal/esp32s3/include -I/Users/reyon/esp/esp-idf/components/hal/include -I/Users/reyon/esp/esp-idf/components/hal/platform_port/include -I/Users/reyon/esp/esp-idf/components/esp_rom/include -I/Users/reyon/esp/esp-idf/components/esp_rom/include/esp32s3 -I/Users/reyon/esp/esp-idf/components/esp_rom/esp32s3 -I/Users/reyon/esp/esp-idf/components/esp_common/include -I/Users/reyon/esp/esp-idf/components/esp_system/include -I/Users/reyon/esp/esp-idf/components/esp_system/port/soc -I/Users/reyon/esp/esp-idf/components/esp_system/port/include/private -I/Users/reyon/esp/esp-idf/components/xtensa/include -I/Users/reyon/esp/esp-idf/components/xtensa/esp32s3/include -I/Users/reyon/esp/esp-idf/components/lwip/include -I/Users/reyon/esp/esp-idf/components/lwip/include/apps -I/Users/reyon/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/reyon/esp/esp-idf/components/lwip/lwip/src/include -I/Users/reyon/esp/esp-idf/components/lwip/port/include -I/Users/reyon/esp/esp-idf/components/lwip/port/freertos/include -I/Users/reyon/esp/esp-idf/components/lwip/port/esp32xx/include -I/Users/reyon/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/reyon/esp/esp-idf/components/esp_ringbuf/include -I/Users/reyon/esp/esp-idf/components/efuse/include -I/Users/reyon/esp/esp-idf/components/efuse/esp32s3/include -I/Users/reyon/esp/esp-idf/components/driver/include -I/Users/reyon/esp/esp-idf/components/driver/deprecated -I/Users/reyon/esp/esp-idf/components/driver/analog_comparator/include -I/Users/reyon/esp/esp-idf/components/driver/dac/include -I/Users/reyon/esp/esp-idf/components/driver/gpio/include -I/Users/reyon/esp/esp-idf/components/driver/gptimer/include -I/Users/reyon/esp/esp-idf/components/driver/i2c/include -I/Users/reyon/esp/esp-idf/components/driver/i2s/include -I/Users/reyon/esp/esp-idf/components/driver/ledc/include -I/Users/reyon/esp/esp-idf/components/driver/mcpwm/include -I/Users/reyon/esp/esp-idf/components/driver/parlio/include -I/Users/reyon/esp/esp-idf/components/driver/pcnt/include -I/Users/reyon/esp/esp-idf/components/driver/rmt/include -I/Users/reyon/esp/esp-idf/components/driver/sdio_slave/include -I/Users/reyon/esp/esp-idf/components/driver/sdmmc/include -I/Users/reyon/esp/esp-idf/components/driver/sigma_delta/include -I/Users/reyon/esp/esp-idf/components/driver/spi/include -I/Users/reyon/esp/esp-idf/components/driver/temperature_sensor/include -I/Users/reyon/esp/esp-idf/components/driver/touch_sensor/include -I/Users/reyon/esp/esp-idf/components/driver/twai/include -I/Users/reyon/esp/esp-idf/components/driver/uart/include -I/Users/reyon/esp/esp-idf/components/driver/usb_serial_jtag/include -I/Users/reyon/esp/esp-idf/components/driver/touch_sensor/esp32s3/include -I/Users/reyon/esp/esp-idf/components/esp_pm/include -I/Users/reyon/esp/esp-idf/components/mbedtls/port/include -I/Users/reyon/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/reyon/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/reyon/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/reyon/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -I/Users/reyon/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -I/Users/reyon/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -I/Users/reyon/esp/esp-idf/components/esp_app_format/include -I/Users/reyon/esp/esp-idf/components/bootloader_support/include -I/Users/reyon/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/Users/reyon/esp/esp-idf/components/esp_partition/include -I/Users/reyon/esp/esp-idf/components/app_update/include -I/Users/reyon/esp/esp-idf/components/esp_mm/include -I/Users/reyon/esp/esp-idf/components/spi_flash/include -I/Users/reyon/esp/esp-idf/components/pthread/include -I/Users/reyon/esp/esp-idf/components/esp_timer/include -I/Users/reyon/esp/esp-idf/components/app_trace/include -I/Users/reyon/esp/esp-idf/components/esp_event/include -I/Users/reyon/esp/esp-idf/components/nvs_flash/include -I/Users/reyon/esp/esp-idf/components/esp_phy/include -I/Users/reyon/esp/esp-idf/components/esp_phy/esp32s3/include -I/Users/reyon/esp/esp-idf/components/vfs/include -I/Users/reyon/esp/esp-idf/components/esp_netif/include -I/Users/reyon/esp/esp-idf/components/wpa_supplicant/include -I/Users/reyon/esp/esp-idf/components/wpa_supplicant/port/include -I/Users/reyon/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/Users/reyon/esp/esp-idf/components/esp_coex/include -I/Users/reyon/esp/esp-idf/components/esp_wifi/include -I/Users/reyon/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/Users/reyon/esp/esp-idf/components/unity/include -I/Users/reyon/esp/esp-idf/components/unity/unity/src -I/Users/reyon/esp/esp-idf/components/cmock/CMock/src -I/Users/reyon/esp/esp-idf/components/console -I/Users/reyon/esp/esp-idf/components/http_parser -I/Users/reyon/esp/esp-idf/components/esp-tls -I/Users/reyon/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/reyon/esp/esp-idf/components/esp_adc/include -I/Users/reyon/esp/esp-idf/components/esp_adc/interface -I/Users/reyon/esp/esp-idf/components/esp_adc/esp32s3/include -I/Users/reyon/esp/esp-idf/components/esp_adc/deprecated/include -I/Users/reyon/esp/esp-idf/components/esp_eth/include -I/Users/reyon/esp/esp-idf/components/esp_gdbstub/include -I/Users/reyon/esp/esp-idf/components/esp_hid/include -I/Users/reyon/esp/esp-idf/components/tcp_transport/include -I/Users/reyon/esp/esp-idf/components/esp_http_client/include -I/Users/reyon/esp/esp-idf/components/esp_http_server/include -I/Users/reyon/esp/esp-idf/components/esp_https_ota/include -I/Users/reyon/esp/esp-idf/components/esp_psram/include -I/Users/reyon/esp/esp-idf/components/esp_lcd/include -I/Users/reyon/esp/esp-idf/components/esp_lcd/interface -I/Users/reyon/esp/esp-idf/components/protobuf-c/protobuf-c -I/Users/reyon/esp/esp-idf/components/protocomm/include/common -I/Users/reyon/esp/esp-idf/components/protocomm/include/security -I/Users/reyon/esp/esp-idf/components/protocomm/include/transports -I/Users/reyon/esp/esp-idf/components/esp_local_ctrl/include -I/Users/reyon/esp/esp-idf/components/espcoredump/include -I/Users/reyon/esp/esp-idf/components/espcoredump/include/port/xtensa -I/Users/reyon/esp/esp-idf/components/wear_levelling/include -I/Users/reyon/esp/esp-idf/components/sdmmc/include -I/Users/reyon/esp/esp-idf/components/fatfs/diskio -I/Users/reyon/esp/esp-idf/components/fatfs/vfs -I/Users/reyon/esp/esp-idf/components/fatfs/src -I/Users/reyon/esp/esp-idf/components/idf_test/include -I/Users/reyon/esp/esp-idf/components/idf_test/include/esp32s3 -I/Users/reyon/esp/esp-idf/components/ieee802154/include -I/Users/reyon/esp/esp-idf/components/json/cJSON -I/Users/reyon/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/reyon/esp/esp-idf/components/perfmon/include -I/Users/reyon/esp/esp-idf/components/spiffs/include -I/Users/reyon/esp/esp-idf/components/touch_element/include -I/Users/reyon/esp/esp-idf/components/ulp/ulp_common/include -I/Users/reyon/esp/esp-idf/components/ulp/ulp_common/include/esp32s3 -I/Users/reyon/esp/esp-idf/components/usb/include -I/Users/reyon/esp/esp-idf/components/wifi_provisioning/include -mlongcalls  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/Users/reyon/Firmware_programming/rtos_projects/multi_led_blink=. -fmacro-prefix-map=/Users/reyon/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/multi_led_blink.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/multi_led_blink.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/multi_led_blink.c.obj -c /Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/main/multi_led_blink.c
+/Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/main/multi_led_blink.c: In function 'app_main':
+/Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/main/multi_led_blink.c:41:18: error: 'blink_test' undeclared (first use in this function); did you mean 'blink_task'?
+   41 |     xTaskCreate( blink_test, "task3", 2048, led3_args, 1, NULL );
+      |                  ^~~~~~~~~~
+      |                  blink_task
+/Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/main/multi_led_blink.c:41:18: note: each undeclared identifier is reported only once for each function it appears in
+[4/13] Performing build step for 'bootloader'
+[1/110] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[2/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[3/110] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj
+[4/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[5/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[6/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj
+[7/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj
+[8/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[9/110] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj
+[10/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[11/110] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj
+[12/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[13/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj
+[14/110] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[15/110] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[16/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj
+[17/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj
+[18/110] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[19/110] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[20/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj
+[21/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[22/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj
+[23/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj
+[24/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj
+[25/110] Linking C static library esp-idf/log/liblog.a
+[26/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj
+[27/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj
+[28/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj
+[29/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[30/110] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj
+[31/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[32/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[33/110] Linking C static library esp-idf/esp_rom/libesp_rom.a
+[34/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[35/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[36/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj
+[37/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj
+[38/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[39/110] Linking C static library esp-idf/esp_common/libesp_common.a
+[40/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[41/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[42/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[43/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[44/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[45/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[46/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj
+[47/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj
+[48/110] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[49/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj
+[50/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj
+[51/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_soc.c.obj
+[52/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_sha.c.obj
+[53/110] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[54/110] Linking C static library esp-idf/esp_system/libesp_system.a
+[55/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj
+[56/110] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[57/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj
+[58/110] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[59/110] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[60/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_esp32s3.c.obj
+[61/110] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[62/110] Linking C static library esp-idf/efuse/libefuse.a
+[63/110] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj
+[64/110] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
+[65/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[66/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[67/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[68/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj
+[69/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj
+[70/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj
+[71/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj
+[72/110] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[73/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj
+[74/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj
+[75/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj
+[76/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj
+[77/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj
+[78/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj
+[79/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj
+[80/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj
+[81/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj
+[82/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj
+[83/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj
+[84/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj
+[85/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj
+[86/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[87/110] Generating project_elf_src_esp32s3.c
+[88/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj
+[89/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_otg_periph.c.obj
+[90/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj
+[91/110] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[92/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj
+[93/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_periph.c.obj
+[94/110] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[95/110] Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj
+[96/110] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj
+[97/110] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[98/110] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+[99/110] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[100/110] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[101/110] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[102/110] Linking C static library esp-idf/hal/libhal.a
+[103/110] Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj
+[104/110] Linking C static library esp-idf/micro-ecc/libmicro-ecc.a
+[105/110] Linking C static library esp-idf/soc/libsoc.a
+[106/110] Linking C static library esp-idf/xtensa/libxtensa.a
+[107/110] Linking C static library esp-idf/main/libmain.a
+[108/110] Linking C executable bootloader.elf
+[109/110] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32s3 image...
+Merged 1 ELF section
+Successfully created esp32s3 image.
+Generated /Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/build/bootloader/bootloader.bin
+[110/110] cd /Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/build/bootloader/esp-idf/esptool_py && /Users/reyon/.espressif/python_env/idf5.1_py3.12_env/bin/python /Users/reyon/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/reyon/Firmware_programming/rtos_projects/multi_led_blink/build/bootloader/bootloader.bin
+Bootloader binary size 0x51c0 bytes. 0x2e40 bytes (36%) free.
+ninja: build stopped: subcommand failed.
