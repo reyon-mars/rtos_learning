@@ -1,0 +1,7 @@
+[0;33m--- Warning: Serial ports accessed as /dev/tty.* will hang gdb if launched.[0m
+[0;33m--- Using /dev/cu.usbmodem14401 instead...[0m
+[0;33m--- esp-idf-monitor 1.7.0 on /dev/cu.usbmodem14401 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40048839: [0;33muart_tx_one_char_uart[0m[0m in [0;32mROM[0m
+[0m--- 0x4037526c: [0;33mcall_start_cpu1[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m157[0m
+[0m

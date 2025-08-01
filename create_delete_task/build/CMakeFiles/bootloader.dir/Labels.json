@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/reyon/Firmware_programming/rtos_projects/create_delete_task/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
