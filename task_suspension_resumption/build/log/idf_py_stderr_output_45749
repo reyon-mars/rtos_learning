@@ -1,0 +1,31 @@
+[0;33m--- Warning: Serial ports accessed as /dev/tty.* will hang gdb if launched.[0m
+[0;33m--- Using /dev/cu.usbmodem14401 instead...[0m
+[0;33m--- esp-idf-monitor 1.7.0 on /dev/cu.usbmodem14401 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40048839: [0;33muart_tx_one_char_uart[0m[0m in [0;32mROM[0m
+[0m--- 0x4037528c: [0;33mcall_start_cpu1[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m157[0m
+[0m--- 0x403757d6: [0;33mpanic_abort[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m452[0m
+[0m--- 0x40379a31: [0;33mesp_system_abort[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4037f641: [0;33m__assert_func[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/newlib/assert.c[0m[0m:[1;31m81[0m
+[0m--- 0x4037ab22: [0;33meTaskGetState[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m1696[0m
+[0m--- 0x42008471: [0;33mcontroller_task[0m[0m at [0;32m/Users/reyon/Firmware_programming/rtos_projects/task_suspension_resumption/main/task_suspension_resumption.c[0m[0m:[1;31m30[0m
+[0m--- 0x4037c1c5: [0;33mvPortTaskWrapper[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m162[0m
+[0m--- 0x40375658: [0;33mesp_restart_noos_dig[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m57[0m
+[0m--- 0x4037528c: [0;33mcall_start_cpu1[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m157[0m
+[0m--- 0x403757d6: [0;33mpanic_abort[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m452[0m
+[0m--- 0x40379a31: [0;33mesp_system_abort[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4037f641: [0;33m__assert_func[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/newlib/assert.c[0m[0m:[1;31m81[0m
+[0m--- 0x4037ab22: [0;33meTaskGetState[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m1696[0m
+[0m--- 0x42008471: [0;33mcontroller_task[0m[0m at [0;32m/Users/reyon/Firmware_programming/rtos_projects/task_suspension_resumption/main/task_suspension_resumption.c[0m[0m:[1;31m30[0m
+[0m--- 0x4037c1c5: [0;33mvPortTaskWrapper[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m162[0m
+[0m--- 0x40375658: [0;33mesp_restart_noos_dig[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m57[0m
+[0m--- 0x4037528c: [0;33mcall_start_cpu1[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m157[0m
+[0m--- 0x403757d6: [0;33mpanic_abort[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m452[0m
+[0m--- 0x40379a31: [0;33mesp_system_abort[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m84[0m
+[0m--- 0x4037f641: [0;33m__assert_func[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/newlib/assert.c[0m[0m:[1;31m81[0m
+[0m--- 0x4037ab22: [0;33meTaskGetState[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m1696[0m
+[0m--- 0x42008471: [0;33mcontroller_task[0m[0m at [0;32m/Users/reyon/Firmware_programming/rtos_projects/task_suspension_resumption/main/task_suspension_resumption.c[0m[0m:[1;31m30[0m
+[0m--- 0x4037c1c5: [0;33mvPortTaskWrapper[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m162[0m
+[0m--- 0x40375658: [0;33mesp_restart_noos_dig[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m57[0m
+[0m--- 0x4037528c: [0;33mcall_start_cpu1[0m[0m at [0;32m/Users/reyon/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m157[0m
+[0m

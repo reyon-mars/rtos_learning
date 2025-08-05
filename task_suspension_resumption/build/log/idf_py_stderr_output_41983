@@ -1,0 +1,9 @@
+[0;33m--- esp-idf-monitor 1.7.0 on flash 115200[0m
+[0;33m--- Warning: ELF file '/Users/reyon/Firmware_programming/rtos_projects/task_suspension_resumption/build/task_suspension_resumption.elf' does not exist[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- Connection to flash failed. Available ports:
+--- /dev/cu.debug-console
+--- /dev/cu.JBLFlip5
+--- /dev/cu.Airdopes170
+--- /dev/cu.Ultimaboom141[0m
+[0m
