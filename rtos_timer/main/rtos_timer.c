@@ -34,7 +34,8 @@ void app_main(void)
     
     led_timer_handle = xTimerCreate( "LED_TIMER", pdMS_TO_TICKS( 500 ), pdTRUE, NULL, timer_callback );
     
-    if( led_timer_handle == NULL ){
+    if( led_timer_handle == NULL )
+    {
         ESP_LOGI( TAG, "Failed to create timer..... " );
         return;
     }
