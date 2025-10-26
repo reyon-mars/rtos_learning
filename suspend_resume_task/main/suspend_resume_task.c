@@ -19,8 +19,10 @@ void task1( void* p ){
     }
 }
 
-void task2( void* p ){
-    while(true){
+void task2( void* p )
+{
+    while(true)
+    {
         vTaskDelay( pdMS_TO_TICKS( 5000 ) );
         vTaskSuspend( task1_handle );
         vTaskDelay( pdMS_TO_TICKS( 5000 ) );
